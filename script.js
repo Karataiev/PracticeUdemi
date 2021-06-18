@@ -1,49 +1,53 @@
 "use strict";
 
-// alert('Hello')
+// const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
-// const result = confirm('Are you here?')
-// console.log(result)
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
+
+//  const a = prompt('Один из последних просмотреный фильмов', ''),
+//        b = prompt('На сколько оцените его?', ''),
+//        c = prompt('Один из последних просмотреный фильмов', ''),
+//        d = prompt('На сколько оцените его?', '');
+
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+
+// console.log(personalMovieDB);
 
 
+// Условия
 
-// const answer = prompt('Вам есть 18?', '');
-// console.log(answer)
+const num = 51;
 
-// const answers = [];
+// if (num < 49) {
+//     console.log("Error");
+// } else if (num > 100) {
+//     console.log("biggest")
+// } else {
+//     console.log("ok!")
+// }
 
-// answers[0] = prompt("What is your name?", "");
-// answers[1] = prompt("What is your last name?", "");
-// answers[2] = prompt("How old are you?", "");
 
-// console.log(typeof(answers));
+// (num == 50) ? console.log("Ok!") : console.log('error');
 
-// let incr = 10,
-//     decr = 10;
 
-// incr++;
-// decr--;
-
-// console.log(incr++);
-// console.log(decr--);
-// console.log(5%2);
-
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
-
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
-
- const a = prompt('Один из последних просмотреный фильмов', ''),
-       b = prompt('На сколько оцените его?', ''),
-       c = prompt('Один из последних просмотреный фильмов', ''),
-       d = prompt('На сколько оцените его?', '');
-
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-
-console.log(personalMovieDB);
+// switch (num) {
+//     case 49:
+//         console.log('Неверно');
+//         break;
+//     case 100:
+//         console.log('Неверно');
+//         break;
+//     case 50:
+//         console.log('Верно');
+//         break;
+//     default:
+//         console.log('Не в этот раз');
+//         break;       
+// }
