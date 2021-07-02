@@ -1,53 +1,23 @@
 "use strict";
 
-// const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+// Project UDEMI "lesson_1"
 
-// const personalMovieDB = {
-//     count: numberOfFilms,
-//     movies: {},
-//     actors: {},
-//     genres: [],
-//     privat: false
-// };
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
-//  const a = prompt('Один из последних просмотреный фильмов', ''),
-//        b = prompt('На сколько оцените его?', ''),
-//        c = prompt('Один из последних просмотреный фильмов', ''),
-//        d = prompt('На сколько оцените его?', '');
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
 
-// personalMovieDB.movies[a] = b;
-// personalMovieDB.movies[c] = d;
+const a = prompt('Last wathing film?', ''),
+      b = prompt('How much do you rate him?', ''),
+      c = prompt('Last wathing film?', ''),
+      d = prompt('how much do you rate him?', '');
 
-// console.log(personalMovieDB);
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
-
-// Условия
-
-const num = 51;
-
-// if (num < 49) {
-//     console.log("Error");
-// } else if (num > 100) {
-//     console.log("biggest")
-// } else {
-//     console.log("ok!")
-// }
-
-
-// (num == 50) ? console.log("Ok!") : console.log('error');
-
-
-// switch (num) {
-//     case 49:
-//         console.log('Неверно');
-//         break;
-//     case 100:
-//         console.log('Неверно');
-//         break;
-//     case 50:
-//         console.log('Верно');
-//         break;
-//     default:
-//         console.log('Не в этот раз');
-//         break;       
-// }
+console.log(personalMovieDB);
